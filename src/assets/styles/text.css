@@ -1,0 +1,43 @@
+.text--Question {
+	color: #4953be;
+	font-size: 31px;
+	overflow-wrap: break-word;
+	text-align: center;
+	width: 70%;
+	margin: 0;
+}
+
+.text--Category {
+	color: #4953be;
+	font-size: 4rem;
+	overflow-wrap: break-word;
+	width: 100%;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+}
+
+.text--Level {
+	color: #4953be;
+	letter-spacing: 1rem;
+	font-size: 28px;
+	margin-top: 1rem;
+}
+
+.text--Title {
+	font-weight: 700;
+	font-size: 2rem;
+}
+
+.text--InputLabel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0;
+}
+
+.text--InputLabel > span {
+	font-size: 12px;
+	color: var(--welcome-label-text);
+	font-weight: bold;
+}

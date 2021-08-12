@@ -1,0 +1,142 @@
+.progress-bar {
+	background: #dbdeff;
+	justify-content: flex-start;
+	border-radius: 100px;
+	align-items: center;
+	position: relative;
+	display: flex;
+	height: 5px;
+	width: 100%;
+	margin: 5px 0;
+}
+
+.progress-bar-value {
+	border-radius: 100px;
+	background: linear-gradient(180deg, #ff7878 0%, #ff7878 100%);
+	height: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+.input--Select {
+	border: 1px solid #fff;
+	appearance: none;
+	padding: 25px 20px;
+	display: grid;
+	font-size: 16px;
+	width: 100%;
+	background-color: transparent;
+	border-radius: 10px;
+	color: #fff;
+	box-shadow: 6px 6px 13px -1px rgba(23, 21, 92, 0.06);
+}
+
+.wrapper--Select {
+	width: 100%;
+	position: relative;
+}
+
+.wrapper--Select:after {
+	content: "›";
+	color: #fff;
+	right: 10px;
+	top: 0;
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 15px 0px 0px 8px;
+	position: absolute;
+	pointer-events: none;
+	transform: rotate(90deg) scale(2, 1.5);
+	transition: all 1s;
+}
+
+.outline {
+	border: 1px solid #fff;
+	appearance: none;
+	padding: 25px 20px;
+	display: grid;
+	width: 100%;
+	font-size: 16px;
+	background-color: transparent;
+	border-radius: 10px;
+	color: #fff;
+	box-shadow: 6px 6px 13px -1px rgba(23, 21, 92, 0.06);
+}
+
+.star path {
+	fill: #969cdc;
+}
+.star {
+	margin: 3px;
+	width: 32px;
+}
+
+.star--correct path {
+	fill: #ff7c7c;
+}
+
+.answerCard {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 25px;
+	width: 70%;
+	height: 80px;
+	align-items: center;
+	background-color: var(--resoult-card-correct);
+	border-radius: 14px;
+	margin-bottom: 1.2rem;
+}
+
+.answerWrong {
+	background-color: var(--resoult-card-wrong);
+}
+
+#FaceIcon {
+	width: 32px;
+	background-color: #fffbfa;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
+#Logo {
+	height: 50vh;
+	width: 100%;
+	margin-top: -10vh;
+}
+
+#BlobLT1 {
+	position: absolute;
+	top: -5%;
+	left: 0;
+	width: 10%;
+}
+
+#BlobRB1 {
+	position: absolute;
+	bottom: -5%;
+	right: 0;
+	width: 5%;
+}
+
+#BlobLinesLB1 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 15%;
+}
+
+#BlobLinesRT1 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 10%;
+}

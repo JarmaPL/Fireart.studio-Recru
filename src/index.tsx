@@ -1,12 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './assets/styles/index.css';
 import reportWebVitals from './reportWebVitals';
+import { Provider } from 'react-redux';
+import { store } from './services/store'
+import WelcomePage from './views/welcome';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import QuizPage from './views/quiz';
+import ResultPage from 'views/result';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Provider store={store}>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" exact component={WelcomePage}/>
+          <Route path="/quiz" exact component={QuizPage}/>
+          <Route path="/answers" exact component={ResultPage}/>
+        </Switch>
+      </BrowserRouter>
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

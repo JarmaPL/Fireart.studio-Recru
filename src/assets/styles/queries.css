@@ -1,0 +1,106 @@
+@media (max-width: 680px) {
+	.wrapper--Items {
+		width: 90% !important;
+	}
+
+	.container {
+		overflow: hidden;
+	}
+
+	.container > img {
+		width: 21% !important;
+	}
+
+	.button--primary {
+		margin-top: 30%;
+		padding: 20px;
+		font-size: 15px;
+		border: none !important;
+	}
+
+	.wrapper--Form {
+		width: 100% !important;
+	}
+
+	.text--Title {
+		width: auto !important;
+		margin: -2rem 0;
+	}
+
+	.wrapper--Quiz {
+		width: 90% !important;
+	}
+
+	.button--secondary {
+		width: 100% !important;
+	}
+
+	.button--outline {
+		width: 100% !important;
+		margin-top: 8px;
+	}
+
+	.text--Question {
+		width: 100% !important;
+		text-align: left !important;
+		font-size: 25px !important;
+	}
+
+	.text--Category {
+		font-size: 36px !important;
+	}
+
+	.text--Level {
+		font-size: 13px !important;
+		letter-spacing: 5px;
+	}
+
+	.wrapper--Progess-Bar {
+		width: 100%;
+	}
+
+	.wrapper--Results {
+		width: 90% !important;
+		margin-top: 5vh;
+		padding: 5rem 0;
+		height: 100%;
+	}
+
+	.mobile-button {
+		width: 90% !important;
+		border: none;
+	}
+
+	.answerCard {
+		width: 100%;
+		margin: 8px 0;
+		padding: 15px;
+	}
+
+	.answerCard > div {
+		font-size: 14px !important;
+		padding-right: 1rem !important;
+	}
+
+	.content--wrap {
+		max-width: 90%;
+		margin-bottom: 2rem;
+	}
+
+	.star {
+		width: 24px;
+	}
+
+	.button--exit {
+		top: 5%;
+		right: 2%;
+	}
+
+	.button--exit > img {
+		width: 1.5rem;
+	}
+
+	.flex--center-list {
+		width: 90% !important;
+	}
+}
