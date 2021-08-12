@@ -14,11 +14,6 @@ If using Yarn:
 - `yarn start`
 - `yarn run build`
 
-Or if using Npm:
-
-- `npm start`
-- `npm run build`
-
 ## Development Problem
 
 - `Redux: When it comes to redux with typescript I could have used mapStateToProps and mapDispatchToProps and then connect with the component but as the 'react-redux' documentation hints at using '@reduxjs/toolkit' so I used that solution.`
